@@ -1,0 +1,19 @@
+DAY 1 DATA QUALITY SUMMARY
+
+1. Successfully loaded all 10 CSV datasets.
+2. Verified shape, datatypes and sample records.
+3. Checked missing values.
+4. Downloaded live NAV data from mfapi.in.
+5. Downloaded NAV data for 5 key mutual funds.
+6. Explored fund master dataset.
+7. No critical issues found during initial inspection.
+
+
+
+
+
+
+Anomalies Observed:
+- monthly_sip_inflows.csv contains 12 missing values in yoy_growth_pct.
+- All other datasets have no missing values.
+- All 40 AMFI codes in fund_master exist in nav_history.
